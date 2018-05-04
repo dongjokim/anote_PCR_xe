@@ -1,0 +1,13 @@
+s/\\bge/\\begin{equation}/g
+s/\\ende/\\end{equation}/g
+s/\\bgi/\\begin{itemize}/g
+s/\\endi/\\end{itemize}/g
+#s/\\xe{}/x_{\\rm E}/g
+#s/\\ptt{}/p_{\\rm Tt}/g
+#s/\\pta{}/p_{\\rm Ta}/g
+#s/\\ptq{a}/\\hat{p}_{\\rm Ta}/g
+#s/\\ptq{t}/\\hat{t}_{\\rm Ta}/g
+#s/\\za/z_{\\rm a}/g
+#s/\\zt/z_{\\rm t}/g
+#s/\\dphi/\\Delta\\phi/g
+#s/\\kt{}/ k_{\\rm T}/g

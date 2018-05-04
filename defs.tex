@@ -1,0 +1,132 @@
+
+\def\defn#1{{\color{red} #1}}
+\def\tred#1{{\color{red} #1}}
+\def\tblue#1{{\color{blue} #1}}
+
+\def\fig#1{Fig.~\ref{#1}}
+\def\eq#1{Eq.~(\ref{#1})}
+\def\tab#1{Tab.~\ref{#1}}
+
+%bold in math mode
+\def\mbold#1{\mbox{\boldmath\ensuremath{#1}}} 
+%definition symbol. When you type just := the : sum is vertically misaligned
+\def\defeq{\mathrel{\mathop:}=}
+
+\def\acosh{\mbox{\rm acosh}}
+\def\asinh{\mbox{\rm asinh}}
+
+\def\gev{\mbox{~GeV}}
+\def\gevc{\mbox{~GeV/$c$}}
+\def\gevcc{\mbox{~GeV/$c^2$}}
+\def\mevc{\mbox{~MeV/$c$}}
+
+\def\la{\left<}
+\def\ra{\right>}
+
+\def\mean#1{\ensuremath{\la#1\ra}}
+\def\meanabs#1{\ensuremath{\la|#1|\ra}}
+\def\meankv#1{\ensuremath{\la#1^2\ra}}
+\def\rms#1{\meankv{#1}}
+\def\sqrtrms#1{\ensuremath{\sqrt{\meankv{#1}}}}
+
+\def\eg{{\it e.g.}}
+\def\etc{{\it etc}}
+\def\etall{{\it et al.}}
+
+\def\ptq#1{\ensuremath{\hat{p}_{\rm T#1}}} 
+\def\ptqkv#1{\ensuremath{\hat{p}^2_{\rm T#1}}} 
+\def\vptq#1{\ensuremath{\vec{\hat{p}}_{\rm T#1}}} 
+\def\ptg{\ensuremath{p_{\rm T\gamma}}} 
+
+\def\pt#1{\ensuremath{p_{\rm T#1}}} 
+\def\ptkv#1{\ensuremath{p^2_{\rm T#1}}} 
+\def\vpt#1{\ensuremath{\vec{p}_{\rm T#1}}} 
+\def\et{\ensuremath{E_{\rm T}}} 
+
+\def\kt#1{\ensuremath{k_{\rm T#1}}} 
+\def\ktkv#1{\ensuremath{k^2_{\rm T#1}}} 
+\def\vkt#1{\ensuremath{\vec{k}_{\rm T#1}}} 
+
+\def\jt#1{\ensuremath{j_{\rm T#1}}} 
+\def\jtkv#1{\ensuremath{j^2_{\rm T#1}}} 
+\def\vjt#1{\ensuremath{\vec{j}_{\rm T#1}}} 
+
+\def\mkv#1{\ensuremath{m^2_{#1}}}
+\def\mt#1{\ensuremath{m_{\rm T#1}}}
+\def\mtkv#1{\ensuremath{m^2_{\rm T#1}}}
+
+\newcommand{\sign} {\ensuremath{\sigma_{\rm N}}}
+\newcommand{\siga} {\ensuremath{\sigma_{\rm A}}}
+\newcommand{\yn} {\ensuremath{Y_{\rm N}}}
+\newcommand{\yf} {\ensuremath{Y_{\rm F}}}
+%\newcommand{\D} {\ensuremath{D^q_\pi}}
+\newcommand{\D} {\ensuremath{D^f}}
+\newcommand{\fq}{\ensuremath{f_Q(\hat{p}_T)}}
+\newcommand{\sq}{\ensuremath{\Sigma_Q(\hat{p}_T)}}
+\newcommand{\fkt}{\ensuremath{f^\prime_Q(\hat{p}_{\rm Tt})}}
+\newcommand{\skt}{\ensuremath{\Sigma^\prime_Q(\hat{p}_{\rm Tt})}}
+\newcommand{\prob}{\ensuremath{\mathcal{P}}}
+
+%\newcommand{\condta}{\ensuremath{\Big|_{\pt{t},\pt{a}}}}
+% \left.something \right|_{xy}
+
+\newcommand{\auau} {\ensuremath{Au+Au}}
+\newcommand{\hi} {\ensuremath{A+A}}
+\newcommand{\dau} {\ensuremath{d+Au}}
+\newcommand{\pp} {\ensuremath{p+p}}
+\newcommand{\ee} {\ensuremath{e^+ + e^-}}
+
+\newcommand{\mpt} {\mean{\pt{}}} 
+\newcommand{\ptt}{\ensuremath{p_{\rm Tt}}}
+\newcommand{\mptt} {\mean{\ptt}} 
+\newcommand{\pta}{\ensuremath{p_{\rm Ta}}}
+\newcommand{\mpta} {\mean{\pta}} 
+\def\pn{\ensuremath{\hat{p}_{\rm n}}} 
+\def\pnkv{\ensuremath{\hat{p}^2_{\rm n}}} 
+\def\vpn{\ensuremath{\vec{\hat{p}}_{\rm n}}} 
+
+\newcommand{\pout} {\ensuremath{p_{\rm out}}}
+\newcommand{\qout} {\ensuremath{\hat{p}_{\rm out}}}
+
+\newcommand{\mz} {\mean{z}}
+\newcommand{\zt} {\ensuremath{z_{\rm t}}}
+\newcommand{\mzt} {\mean{\zt}}
+\newcommand{\za} {\ensuremath{z_{\rm a}}}
+\newcommand{\mza} {\mean{\za}}
+\newcommand{\xe} {\ensuremath{x_{\rm E}}}
+\newcommand{\xh} {\ensuremath{x_{\rm h}}}
+\newcommand{\xhq} {\ensuremath{\hat{x}_{\rm h}}}
+\newcommand{\zkt} {\ensuremath{ \mean{\zt}\sqrtrms{\kt{}} }}
+\newcommand{\xzkt} {\ensuremath{ \xhq^{-1}\mean{\zt}\sqrtrms{\kt{}} }}
+\newcommand{\xzktfull} {\ensuremath{ \xhq^{-1}(\kt{},\xh)\mean{\zt(\kt{},\xh)}\sqrtrms{\kt{}} }}
+
+\newcommand{\snn} {\ensuremath{\sqrt{s_{\rm NN}}}}
+\newcommand{\s} {\ensuremath{\sqrt{s}}}
+\newcommand{\piz} {\ensuremath{\pi^0}}
+\newcommand{\pizh}{\ensuremath{\pi^0-h^\pm}}
+\newcommand{\gammah}{\ensuremath{\rm direct-\gamma-h^\pm}}
+\newcommand{\pipmh}{\ensuremath{\pi^\pm-h^\pm}}
+\newcommand{\hh}{\ensuremath{h^\pm-h^\pm}}
+
+\newcommand{\pbar} {\ensuremath{\overline{p}}}
+\newcommand{\lbar} {\ensuremath{\overline{\Lambda}}}
+\newcommand{\npart} {\ensuremath{N_{\rm part}}}
+\newcommand{\npartav} {\ensuremath{\la N_{\rm part} \ra}}
+\newcommand{\ncoll} {\ensuremath{N_{\rm coll}}}
+\newcommand{\ncollav} {\ensuremath{\la N_{\rm coll} \ra}}
+\newcommand{\ut} {\ensuremath{\la u_t \ra}}
+
+\newcommand{\alphas} {\ensuremath{\alpha_{s}}}
+\newcommand{\alphasQ} {\ensuremath{\alpha_{s}(Q^2)}}
+\newcommand{\dphi} {\ensuremath{\Delta \phi}}
+\newcommand{\xt} {\ensuremath{x_{\rm T}}}
+\newcommand{\xtt} {\ensuremath{x_{\rm Tt}}}
+\newcommand{\rmskt} {\ensuremath{ \sqrt{\mean{{\kt{}^2}} }}}
+
+\newcommand{\spn} {\ensuremath{\sigma}}
+\newcommand{\ptaf} {\ensuremath{\mathbf{\ptq{a}}}}
+\newcommand{\pttf} {\ensuremath{\mathbf{\ptq{t}}}}
+
+%%%MJT Added 012611
+\def\lsim{\raise0.3ex\hbox{$<$\kern-0.75em\raise-1.1ex\hbox{$\sim$}}}
+\def\gsim{\raise0.3ex\hbox{$>$\kern-0.75em\raise-1.1ex\hbox{$\sim$}}}
